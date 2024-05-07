@@ -1,0 +1,24 @@
+/* ENCABEZADO//HEADER */
+@import "variables";
+
+.encabezado {
+  display: flex;
+  height: 8rem;
+  padding: 1rem 0;
+  padding-block: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+h1 {
+  margin: auto;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  color: $color-fuentes-claro;
+}
+
+
+
+

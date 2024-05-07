@@ -1,0 +1,15 @@
+// dark-mode
+@import "variables";
+
+.dark-mode {
+    background-color: $color-fondo-oscuro;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        color: $color-fondo-claro;
+    }
+}

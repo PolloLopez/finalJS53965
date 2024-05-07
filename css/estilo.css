@@ -1,0 +1,451 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100&family=Sen&display=swap");
+.dark-mode {
+  background-color: rgba(11, 45, 86, 0.8352941176);
+}
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6,
+.dark-mode p {
+  color: #fefefe;
+}
+
+/* BOTONES !*/
+.botonActual {
+  text-decoration: none;
+  background-color: #fefefe;
+  border: 2px solid rgba(11, 45, 86, 0.8352941176);
+  color: rgba(11, 45, 86, 0.8352941176);
+  padding: 3px;
+  border-radius: 1rem;
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+.boton {
+  text-decoration: none;
+  color: #fefefe;
+  background-color: rgba(11, 45, 86, 0.8352941176);
+  padding: 3px;
+  border-radius: 1rem;
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+.boton:hover {
+  border: 2px solid rgba(11, 45, 86, 0.8352941176);
+  background-color: #fefefe;
+  color: rgba(11, 45, 86, 0.8352941176);
+}
+
+.botonDark {
+  margin-top: 25px;
+  left: 1rem;
+  /* margen al h1 de cada pagina */
+}
+
+.form-control {
+  background-color: #fefefe;
+  border: 2px solid rgba(9, 9, 108, 0.9490196078);
+}
+
+.botonLeer {
+  padding: 1rem 2.5rem;
+  color: #fefefe;
+  font-size: 1.3rem;
+  background-color: rgba(9, 9, 108, 0.9490196078);
+  border: 1px solid #fefefe;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.botonLeer:hover {
+  border: 3px solid #fefefe;
+  font-weight: 700;
+}
+
+.siguienteHero {
+  position: relative;
+}
+
+.btn-finalizar {
+  text-decoration: none;
+  color: #000000;
+  background-color: rgba(11, 45, 86, 0.8352941176);
+  padding: 10px 20px;
+  border-radius: 1rem;
+  font-size: 2.5vw; /* Unidad relativa para el tamaño del texto */
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(247, 39, 2, 0.7411764706);
+  min-height: 50px; /* Altura mínima del botón */
+  font-weight: 600;
+}
+.btn-finalizar:hover {
+  border: 3px solid #fefefe;
+  background-color: rgba(247, 39, 2, 0.7411764706);
+  font-weight: 800;
+}
+
+.botonDarkEstilo {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fefefe;
+  background-color: #000000;
+  border: 2px solid #fefefe;
+}
+.botonDarkEstilo:hover {
+  border: 2px solid #000000;
+  background-color: #fefefe;
+  color: rgba(9, 9, 108, 0.9490196078);
+}
+
+.imgLogo {
+  height: 7.5rem;
+  transition: transform 2.5s;
+  transform: rotate(360deg);
+}
+
+@keyframes rotateInfinitely {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.imgLogo:hover {
+  animation: rotateInfinitely 2.4s infinite linear;
+}
+
+/* FOOTER !*/
+footer {
+  padding: 3rem;
+  border-top: 2px double rgba(9, 9, 108, 0.9490196078);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+footer p {
+  font-weight: 900;
+  color: rgba(9, 9, 108, 0.9490196078);
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.logoRedes {
+  color: rgba(9, 9, 108, 0.9490196078);
+  text-align: center;
+  padding: 2rem;
+  cursor: pointer;
+  font-size: 4rem;
+}
+.logoRedes:hover {
+  font-size: 4.5rem;
+  color: rgba(247, 39, 2, 0.7411764706);
+}
+
+.logoWhatsapp {
+  width: 5rem;
+  position: fixed;
+  bottom: 40px;
+  right: 1.5rem;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.logoWhatsapp:hover {
+  width: 6rem;
+}
+
+/* Galería */
+.galeria {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.foto {
+  margin-top: 1rem;
+  display: block;
+  border-radius: 4rem;
+  filter: grayscale(65%);
+  object-fit: cover;
+}
+.foto:hover {
+  filter: grayscale(0%);
+  border-radius: 2rem;
+  transition: all 0.1s;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif;
+  background-color: #fefefe;
+  background: none;
+  color: rgba(9, 9, 108, 0.9490196078);
+}
+
+/* HERO! */
+.hero {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 2rem;
+  margin: 1.5rem;
+  font-size: 1.8rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: roboto, Arial, Helvetica, sans-serif;
+}
+
+.hero h2 span {
+  font-weight: 800;
+  padding: 0.5px;
+  position: relative;
+}
+
+.containerHero {
+  display: flex;
+  margin-top: 0;
+}
+
+.circoDescripcion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.circoDescripcion h2 {
+  display: inline-block;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.circoDescripcion p {
+  max-width: 90%;
+  margin-top: 10px;
+}
+
+.containerTienda {
+  max-width: auto;
+  margin: 0 auto;
+  padding-inline: 1.5rem;
+}
+
+/*TARJETAS DE LA TIENDA */
+.contenedorTienda {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 1rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.producto {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header {
+  padding-block: 1rem;
+}
+
+.header-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainTienda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Alinea el contenido a la parte inferior */
+  align-items: flex-end; /* Alinea el contenido a la derecha */
+  padding-block: auto;
+  margin: auto;
+}
+
+.titulo {
+  margin-bottom: 1rem;
+}
+
+.carrito-main {
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+
+#numerito {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.producto {
+  margin-top: 0.1rem;
+  background-color: rgba(109, 154, 250, 0.8274509804);
+  padding: 0.5rem 0.2rem;
+  border-radius: 1rem;
+  color: rgba(9, 9, 108, 0.9490196078);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  justify-content: end;
+  align-items: center;
+}
+
+.producto-img {
+  border-radius: 0.75rem;
+  width: auto;
+  height: 5rem;
+}
+
+.producto-btn {
+  text-decoration: none;
+  color: rgba(9, 9, 108, 0.9490196078);
+  background-color: rgba(233, 247, 197, 0.3568627451);
+  border: 2px solid rgba(11, 45, 86, 0.8352941176);
+  padding: 3px;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+.producto-btn:hover {
+  border: 2px solid rgba(9, 9, 108, 0.9490196078);
+  letter-spacing: 0.5px;
+}
+
+.carrito-productos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: auto;
+  justify-content: end;
+  padding-block: end;
+}
+
+.infoCarrito {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: auto;
+  justify-content: end;
+  padding-block: end;
+}
+
+.carrito-producto-btn {
+  background-color: rgba(109, 154, 250, 0.8274509804);
+  padding: 0.5rem;
+  border: 1px solid rgba(9, 9, 108, 0.9490196078);
+  margin-right: 4px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.carrito-producto-btn:hover {
+  background-color: #fefefe;
+  color: #000000;
+}
+
+.tienda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.carrito-producto {
+  display: flex;
+  justify-content: initial; /*horizontal*/
+  align-items: center; /*vertical*/
+  max-height: 6rem;
+  min-height: 2;
+  width: auto;
+  background-color: rgba(109, 154, 250, 0.8274509804);
+  text-decoration: none;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  border: 1px solid rgba(9, 9, 108, 0.9490196078);
+}
+
+.d-none {
+  display: none;
+}
+
+.footer {
+  padding-block: 2rem;
+}
+
+.no-hay-productos {
+  color: rgba(247, 39, 2, 0.7411764706);
+}
+
+/* ENCABEZADO//HEADER */
+.encabezado {
+  display: flex;
+  height: 8rem;
+  padding: 1rem 0;
+  padding-block: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: auto;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgba(9, 9, 108, 0.9490196078);
+}
+
+/* Medias Queries! */
+.textoCompleto {
+  display: none;
+}
+
+/*# sourceMappingURL=estilo.css.map */

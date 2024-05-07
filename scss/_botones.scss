@@ -1,0 +1,96 @@
+/* BOTONES !*/
+.botonActual {
+    text-decoration: none;
+    background-color: $color-fondo-claro;
+    border: 2px solid $color-fondo-oscuro;
+    color: $color-fondo-oscuro;
+    padding: 3px;
+    border-radius: 1rem;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+.boton {
+    text-decoration: none;
+    color: $color-fondo-claro;
+    background-color: $color-fondo-oscuro;
+    padding: 3px;
+    border-radius: 1rem;
+    font-size: 2rem;
+    margin: 0.5rem;
+
+    &:hover {
+        border: 2px solid $color-fondo-oscuro;
+        background-color: $color-fondo-claro;
+        color: $color-fondo-oscuro;
+    }
+}
+
+.botonDark {
+    margin-top: 25px;
+    left: 1rem;
+    /* margen al h1 de cada pagina */
+}
+
+
+.form-control {
+    background-color: $color-fondo-claro;
+    border: 2px solid $color-fuentes-claro;
+}
+
+.botonLeer {
+    padding: 1rem 2.5rem;
+    color: $color-fondo-claro;
+    font-size: 1.3rem;
+    background-color: $color-fuentes-claro;
+    border: 1px solid $color-fondo-claro;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        border: 3px solid $color-fondo-claro;
+        font-weight: 700;
+    }
+}
+
+.siguienteHero {
+    position: relative;
+}
+
+.btn-finalizar {
+    text-decoration: none;
+    color: $color-negro;
+    background-color: $color-fondo-oscuro;
+    padding: 10px 20px; 
+    border-radius: 1rem;
+    font-size: 2.5vw; /* Unidad relativa para el tamaño del texto */
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid $color-rojo-redes;
+    min-height: 50px; /* Altura mínima del botón */
+    font-weight: 600;
+
+    &:hover {
+        border: 3px solid $color-fondo-claro;
+        background-color: $color-rojo-redes;
+        font-weight: 800;
+    }
+}
+
+.botonDarkEstilo {
+    //position: fixed; /* Cambiado a absolute */
+    cursor: pointer;
+    text-decoration: none;
+    color: $color-fondo-claro;
+    background-color: $color-negro;
+    border: 2px solid $color-fondo-claro;
+
+    &:hover {
+        border: 2px solid $color-negro;
+        background-color: $color-fondo-claro;
+        color: $color-fuentes-claro;
+    }
+}
